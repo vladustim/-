@@ -230,5 +230,25 @@ namespace кокулятор
                 lblDisplay.ForeColor = Color.DarkRed;
             }
         }
+
+        private void btnce_Click(object sender, EventArgs e)
+        {
+            using (ConfirmClearForm confirm =
+           new ConfirmClearForm())
+            {
+                DialogResult result =
+                    confirm.ShowDialog();
+
+                if (result == DialogResult.Yes)
+                {
+                    lblDisplay.Text = "0";
+                }
+            }
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

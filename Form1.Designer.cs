@@ -224,6 +224,7 @@
             btn6.TabIndex = 10;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
+            btn6.Click += btn6_Click;
             // 
             // btn5
             // 
@@ -321,6 +322,7 @@
             btnce.TabIndex = 0;
             btnce.Text = "CE";
             btnce.UseVisualStyleBackColor = true;
+            btnce.Click += btnce_Click;
             // 
             // btnvid
             // 
